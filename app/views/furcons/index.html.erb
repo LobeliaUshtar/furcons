@@ -1,0 +1,29 @@
+<ul id="furcons">
+	<% @furcons.each do |furcon| %>
+		<li>
+			<article class="furcon">
+				<header>
+					<%= image_for(furcon) %>
+					<h2><%= link_to furcon.name, furcon %></h2>
+					<h3><a href="<%= furcon.website %>" target="_blank"><%= furcon.website %></a></h3>
+				</header>
+				<table>
+					<tr>
+						<th>Location</th>
+						<td><%= furcon.location %></td>
+					</tr>
+					<tr>
+						<th>Theme</th>
+						<td><%= furcon.theme %></td>
+					</tr>
+					<tr>
+						<th>Dates</th>
+						<td><%= furcon.starts_on %> to <%= furcon.ends_on %></td>
+					</tr>
+				</table>
+				<footer>
+				</footer>
+			</article>
+		</li>
+	<% end %>
+</ul>

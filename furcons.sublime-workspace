@@ -1,0 +1,848 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mem",
+				"membership"
+			],
+			[
+				"F",
+				"Furcon"
+			],
+			[
+				"M",
+				"Membership"
+			],
+			[
+				"MEMBER",
+				"membership"
+			],
+			[
+				"SPAN",
+				"span	Tag"
+			],
+			[
+				"pre",
+				"prereg_fee"
+			],
+			[
+				"fur",
+				"furcons_url"
+			],
+			[
+				"new",
+				"new_furcon_path"
+			],
+			[
+				"start",
+				"starts_on"
+			],
+			[
+				"re",
+				"redirect_to"
+			],
+			[
+				"it",
+				"it	it \"does something\" do … end"
+			],
+			[
+				"def",
+				"def	def … end"
+			],
+			[
+				"do",
+				"dob	Insert do |variable| … end"
+			],
+			[
+				"if",
+				"ife	if … else … end"
+			],
+			[
+				"relea",
+				"released_on"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"movie",
+				"movie"
+			],
+			[
+				"la",
+				"label"
+			],
+			[
+				"des",
+				"destroy"
+			],
+			[
+				"ra",
+				"rating"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"st",
+				"strong"
+			],
+			[
+				"t",
+				"td	Tag"
+			],
+			[
+				"u",
+				"ul"
+			],
+			[
+				"furcons",
+				"furcons"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"mod",
+				"mod	module .. end"
+			],
+			[
+				"get",
+				"get_mod"
+			],
+			[
+				"m",
+				"multi"
+			],
+			[
+				"cla",
+				"cla	class .. < ParentClass .. initialize .. end"
+			],
+			[
+				"gam",
+				"GameSystem"
+			],
+			[
+				"in",
+				"info"
+			],
+			[
+				"mo",
+				"MovieSystem"
+			],
+			[
+				"Movi",
+				"MovieSystem"
+			],
+			[
+				"ver",
+				"VERSION"
+			],
+			[
+				"su",
+				"super"
+			],
+			[
+				"Movie",
+				"movie3d"
+			],
+			[
+				"File",
+				"File	File.open(\"..\") { |file| .. }"
+			],
+			[
+				"kn",
+				"Knuckleheads"
+			],
+			[
+				"rec",
+				"received_pledge"
+			],
+			[
+				"foun",
+				"found_treasure"
+			],
+			[
+				"ca",
+				"carbs"
+			],
+			[
+				"fou",
+				"found_treasure"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"pro",
+				"project"
+			],
+			[
+				"Ple",
+				"pledge"
+			],
+			[
+				"player",
+				"player_list"
+			],
+			[
+				"fl",
+				"flops"
+			],
+			[
+				"initial_",
+				"initial_health"
+			],
+			[
+				"tar",
+				"target_fund"
+			],
+			[
+				"pla",
+				"Playlist"
+			],
+			[
+				"initial",
+				"initial_health"
+			],
+			[
+				"ini",
+				"initial_rank"
+			],
+			[
+				"sh",
+				"should"
+			],
+			[
+				"initia",
+				"initial_fund"
+			],
+			[
+				"w0",
+				"w00t"
+			],
+			[
+				"bl",
+				"blam"
+			],
+			[
+				"ran",
+				"rank"
+			],
+			[
+				"th",
+				"thumbs_down"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1368,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/environments/production.rb",
+			"settings":
+			{
+				"buffer_size": 3250,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/_header.html.erb",
+			"settings":
+			{
+				"buffer_size": 212,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/RSpec/RSpec.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: rspe",
+				"Snippet: subject - Rspec subject helper"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Gabby/.ssh/github_rsa.pub",
+		"/C/Users/Gabby/.ssh/id_rsa.pub",
+		"/C/rails_studio/furcons/bin/rake",
+		"/C/rails_studio/furcons/bin/rails",
+		"/C/rails_studio/furcons/bin/bundle",
+		"/C/rails_studio/furcons/config/database.yml",
+		"/C/rails_studio/furcons/app/controllers/memberships_controller.rb",
+		"/C/rails_studio/furcons/spec/features/create_membership_spec.rb",
+		"/C/rails_studio/furcons/app/views/memberships/edit.html.erb",
+		"/C/rails_studio/furcons/app/views/memberships/_form.html.erb",
+		"/C/rails_studio/furcons/app/views/memberships/new.html.erb",
+		"/C/rails_studio/furcons/app/views/memberships/index.html.erb",
+		"/C/rails_studio/furcons/app/helpers/memberships_helper.rb",
+		"/C/rails_studio/furcons/app/helpers/furcons_helper.rb",
+		"/C/rails_studio/furcons/app/models/furcon.rb",
+		"/C/rails_studio/furcons/app/models/membership.rb",
+		"/C/rails_studio/furcons/app/views/shared/_errors.html.erb",
+		"/C/rails_studio/furcons/app/views/furcons/_form.html.erb",
+		"/C/rails_studio/furcons/app/controllers/furcons_controller.rb",
+		"/C/rails_studio/furcons/app/views/furcons/show.html.erb",
+		"/C/rails_studio/furcons/app/assets/stylesheets/furcons.css.scss",
+		"/C/rails_studio/furcons/spec/features/list_memberships_spec.rb",
+		"/C/rails_studio/furcons/config/routes.rb",
+		"/C/rails_studio/furcons/db/seeds.rb",
+		"/C/rails_studio/furcons/spec/support/attributes.rb",
+		"/C/rails_studio/furcons/spec/models/furcon_spec.rb",
+		"/C/rails_studio/furcons/spec/models/membership_spec.rb",
+		"/C/rails_studio/furcons/db/migrate/20140227150102_create_memberships.rb",
+		"/C/rails_studio/furcons/spec/features/create_furcon_spec.rb",
+		"/C/rails_studio/furcons/spec/features/edit_furcon_spec.rb",
+		"/C/rails_studio/furcons/app/views/layouts/application.html.erb",
+		"/C/rails_studio/x furcons/app/views/shared/_errors.html.erb",
+		"/C/rails_studio/x furcons/app/models/furcon.rb",
+		"/C/rails_studio/furcons/spec/features/list_furcons_spec.rb",
+		"/C/rails_studio/x furcons/app/views/furcons/index.html.erb",
+		"/C/rails_studio/furcons/app/views/furcons/index.html.erb",
+		"/C/rails_studio/furcons/app/views/layouts/_footer.html.erb",
+		"/C/rails_studio/furcons/app/views/layouts/_sidebar.html.erb",
+		"/C/rails_studio/furcons/app/views/layouts/_header.html.erb",
+		"/C/rails_studio/x furcons/app/views/furcons/show.html.erb",
+		"/C/rails_studio/x furcons/app/views/layouts/application.html.erb",
+		"/C/rails_studio/furcons/spec/features/show_furcon_spec.rb",
+		"/C/rails_studio/x furcons/app/helpers/furcons_helper.rb",
+		"/C/rails_studio/x furcons/app/views/furcons/_form.html.erb",
+		"/C/rails_studio/x furcons/app/controllers/furcons_controller.rb",
+		"/C/rails_studio/x furcons/spec/features/list_furcons_spec.rb",
+		"/C/rails_studio/furcons/spec/features/delete_furcon_spec.rb",
+		"/C/rails_studio/furcons/app/views/furcons/new.html.erb",
+		"/C/rails_studio/furcons/app/views/furcons/edit.html.erb",
+		"/C/rails_studio/x furcons/spec/features/delete_furcon_spec.rb",
+		"/C/rails_studio/furcons/spec/features/navigate_furcons_spec.rb",
+		"/C/rails_studio/x furcons/spec/features/create_furcon_spec.rb",
+		"/C/rails_studio/x furcons/app/views/furcons/new.html.erb",
+		"/C/rails_studio/x furcons/app/views/furcons/edit.html.erb",
+		"/C/rails_studio/x furcons/spec/features/edit_furcon_spec.rb",
+		"/C/rails_studio/furcons/config/initializers/date_formats.rb",
+		"/C/rails_studio/x furcons/spec/features/show_furcon_spec.rb",
+		"/C/rails_studio/x furcons/config/routes.rb",
+		"/C/rails_studio/furcons/db/schema.rb",
+		"/C/rails_studio/x furcons/db/seeds.rb",
+		"/C/rails_studio/x furcons/spec/models/furcon_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/exercise-solutions/09-test-first-5/flix/app/views/movies/show.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/exercise-solutions/09-test-first-4/flix/app/views/movies/show.html.erb",
+		"/C/rails_studio/x furcons/app/views/furcons/show.html (Clark Snowdall's conflicted copy 2014-02-14).erb",
+		"/C/rails_studio/x furcons/spec/features/navigate_furcons_spec.rb",
+		"/C/rails_studio/x furcons/db/migrate/20140210152611_create_furcons.rb",
+		"/C/rails_studio/furcons x/app/controllers/furcons_controller.rb",
+		"/C/rails_studio/furcons/.rspec",
+		"/C/rails_studio/furcons x/.rspec",
+		"/C/rails_studio/furcons/config/application.rb",
+		"/C/rails_studio/flix/config/application.rb",
+		"/C/rails_studio/flix/config/routes.rb",
+		"/C/rails_studio/flix/spec/features/show_movie_spec.rb",
+		"/C/rails_studio/furcons/db/migrate/20140223155307_create_furcons.rb",
+		"/C/rails_studio/furcons/db/migrate/20140223155735_add_fields_to_furcons.rb",
+		"/C/rails_studio/crowdfund/db/schema.rb",
+		"/C/rails_studio/x furcons/spec/support/attributes.rb",
+		"/C/rails_studio/furcons/Gemfile",
+		"/C/rails_studio/crowdfund/.gitignore",
+		"/C/rails_studio/crowdfund/Gemfile",
+		"/C/rails_studio/flix/db/seeds.rb",
+		"/C/rails_studio/flix/app/views/movies/show.html.erb",
+		"/C/rails_studio/flix/app/helpers/movies_helper.rb",
+		"/C/rails_studio/flix/app/models/movie.rb",
+		"/C/rails_studio/flix/spec/models/movie_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/exercise-solutions/24-one-to-many-logic/flix/app/views/movies/show.html.erb",
+		"/C/rails_studio/flix/app/views/shared/_errors.html.erb",
+		"/C/rails_studio/flix/app/views/reviews/_form.html.erb",
+		"/C/rails_studio/flix/spec/features/create_review_spec.rb",
+		"/C/rails_studio/flix/app/views/reviews/new.html.erb",
+		"/C/rails_studio/flix/app/controllers/reviews_controller.rb",
+		"/C/rails_studio/flix/app/views/movies/_form.html.erb",
+		"/C/rails_studio/flix/app/controllers/movies_controller.rb",
+		"/C/rails_studio/flix/app/views/reviews/index.html.erb",
+		"/C/rails_studio/flix/spec/features/list_reviews_spec.rb",
+		"/C/rails_studio/flix/app/helpers/reviews_helper.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/exercise-solutions/22-one-to-many-nested/flix/app/views/reviews/index.html.erb",
+		"/C/rails_studio/flix/app/models/review.rb",
+		"/C/rails_studio/flix/spec/support/attributes.rb",
+		"/C/rails_studio/flix/spec/models/review_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/exercise-solutions/21-one-to-many-models/flix/db/seeds.rb",
+		"/C/rails_studio/flix/db/test.sqlite3",
+		"/C/rails_studio/flix/db/migrate/20140218220250_create_reviews.rb",
+		"/C/rails_studio/flix/spec/features/delete_movie_spec.rb",
+		"/C/rails_studio/flix/spec/features/create_movie_spec.rb",
+		"/C/rails_studio/flix/spec/features/edit_movie_spec.rb",
+		"/C/rails_studio/flix/app/views/layouts/application.html.erb",
+		"/C/rails_studio/flix/app/controllers/application_controller.rb",
+		"/C/rails_studio/flix/app/assets/stylesheets/movies.css.scss",
+		"/C/rails_studio/flix/app/assets/stylesheets/_colors.scss",
+		"/C/Ruby200/lib/ruby/2.0.0/dl.rb",
+		"/C/rails_studio/flix/spec/features/list_movies_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/redesign/flix/spec/features/list_movies_spec.rb",
+		"/C/rails_studio/flix/app/views/movies/new.html.erb",
+		"/C/rails_studio/flix/app/views/movies/index.html.erb",
+		"/C/rails_studio/flix/app/views/movies/edit.html.erb",
+		"/C/rails_studio/flix/app/views/layouts/_sidebar.html.erb",
+		"/C/rails_studio/flix/app/views/layouts/_header.html.erb",
+		"/C/rails_studio/flix/app/views/layouts/_footer.html.erb",
+		"/C/rails_studio/flix/app/views/layouts/_flashes.html.erb",
+		"/C/rails_studio/flix/app/views/movies/_footer.html.erb",
+		"/C/rails_studio/flix/app/assets/stylesheets/normalize.css",
+		"/C/rails_studio/flix/app/assets/stylesheets/layout.css.scss",
+		"/C/rails_studio/flix/app/assets/stylesheets/forms.css.scss",
+		"/C/rails_studio/flix/app/assets/stylesheets/elements.css.scss",
+		"/C/rails_studio/flix/app/assets/stylesheets/buttons.css.scss",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/exercise-solutions/17-assets/flix/app/views/layouts/_sidebar.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/exercise-solutions/17-assets/flix/app/assets/stylesheets/layout.css.scss"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\rails_studio\\flix"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"  ",
+			"furcon",
+			"  ",
+			"furcon",
+			"@furcon = Furcon.find(params[:id])",
+			"@furcon = Furcon.find(params[:furcon_id])",
+			"@furcon",
+			"review",
+			"urcon",
+			"Movie",
+			"urcon",
+			"Movie",
+			"movie",
+			"  ",
+			"select",
+			"pre",
+			"stars",
+			"  ",
+			"comment",
+			"Review",
+			"review",
+			"movie",
+			"member",
+			"review",
+			"movie",
+			"  ",
+			"movie",
+			"Review",
+			"  ",
+			"review",
+			"movie",
+			"Review",
+			"Movie",
+			"movie",
+			"review",
+			"title",
+			"Movie",
+			"  ",
+			"review",
+			"movie",
+			"  ",
+			"review",
+			"reviews",
+			"  ",
+			"review",
+			"movie",
+			"Reviews",
+			"  ",
+			"reviews",
+			"movie",
+			"  ",
+			"review",
+			"movie",
+			"reviews",
+			"  ",
+			")",
+			"comment",
+			"stars",
+			"title",
+			"reviews",
+			"Movie",
+			"movie",
+			"review",
+			"  ",
+			"review",
+			"  ",
+			"review",
+			"movie",
+			"Movie",
+			"reviews",
+			"  ",
+			"prereg",
+			"swag",
+			"  ",
+			"name",
+			"Review",
+			"review",
+			"Movie",
+			"movie",
+			"  ",
+			"Movie",
+			"movie",
+			"  ",
+			"ends_on",
+			"name",
+			"  ",
+			"image_file_name",
+			"  ",
+			"title",
+			"flight_costs",
+			"flight costs",
+			"  ",
+			"movie",
+			"movies",
+			"  ",
+			"movie",
+			"  ",
+			"movies",
+			"  ",
+			"date",
+			"  ",
+			"Furcon ",
+			"Furcon",
+			"  ",
+			"movie",
+			"Movie",
+			"movies",
+			"  ",
+			"Movie",
+			"movies",
+			"  ",
+			"movies",
+			"Movie",
+			"  ",
+			"movies",
+			"  ",
+			"movies",
+			"  ",
+			"@movie",
+			"  ",
+			"name",
+			"  ",
+			"add.png",
+			"logo",
+			"  ",
+			"#F0F0F0",
+			"#237CBE",
+			"  "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"	",
+			"e.",
+			"	",
+			"Larry",
+			"larry",
+			"150",
+			"Game",
+			"tab",
+			"Project",
+			"project",
+			"Player",
+			"player",
+			"FundRequest",
+			"chipmunks",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/environments/production.rb",
+					"settings":
+					{
+						"buffer_size": 3250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1043,
+								1043
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/layouts/_header.html.erb",
+					"settings":
+					{
+						"buffer_size": 212,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								212,
+								212
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 158.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"_head",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"furcon",
+				"app/models/furcon.rb"
+			],
+			[
+				"mem",
+				"app/models/membership.rb"
+			],
+			[
+				"fur",
+				"app/controllers/furcons_controller.rb"
+			],
+			[
+				"att",
+				"spec/support/attributes.rb"
+			],
+			[
+				"creat",
+				"spec/features/create_furcon_spec.rb"
+			],
+			[
+				"ind",
+				"app/views/furcons/index.html.erb"
+			],
+			[
+				"li",
+				"spec/features/list_furcons_spec.rb"
+			],
+			[
+				"show",
+				"spec/features/show_movie_spec.rb"
+			],
+			[
+				"sho",
+				"app/views/movies/show.html.erb"
+			],
+			[
+				"rev",
+				"app/controllers/reviews_controller.rb"
+			],
+			[
+				"movie",
+				"app/models/movie.rb"
+			],
+			[
+				"revi",
+				"app/models/review.rb"
+			],
+			[
+				"app",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"edit",
+				"spec/features/edit_movie_spec.rb"
+			],
+			[
+				"mo",
+				"app/controllers/movies_controller.rb"
+			],
+			[
+				"movi",
+				"app/controllers/movies_controller.rb"
+			],
+			[
+				"",
+				"spec/features/list_movies_spec.rb"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/rails_studio/events/events.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 187.0,
+	"status_bar_visible": true
+}

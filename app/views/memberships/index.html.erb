@@ -1,0 +1,22 @@
+<header id="content-header">
+	<h1>
+		Memberships for<br/>
+		<%= link_to(@furcon.name, @furcon) %>
+	</h1>
+</header>
+
+<ol id="memberships">
+	<% @memberships.each do |membership| %>
+		<li>
+			<span class="user"><%= membership.name %></span>
+			<p>
+				<span>
+					<%= format_prereg_fee(membership) %><br/>
+					<%= number_to_currency(membership.reg_fee) %> after PreRegistration Date
+					<br/>
+				</span>
+				&quot;<%= membership.swag %>&quot;
+			</p>
+		</li>
+	<% end %>
+</ol>

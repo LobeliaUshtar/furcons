@@ -1,0 +1,51 @@
+<%= form_for(@furcon) do |f| %>
+	<%= render "shared/errors", object: @furcon %>
+	<fieldset>
+		<ol>
+			<li class="required">
+				<%= f.label :name %>
+				<%= f.text_field :name, size: 50, autofocus: true %>
+			</li>
+			<li class="required">
+				<%= f.label :website %>
+				<%= f.text_field :website, size: 50 %>
+			</li>
+			<li class="required">
+				<%= f.label :location %>
+				<%= f.text_area :location, cols: 50, rows: 2 %>
+			</li>
+			<li>
+				<%= f.label :theme %>
+				<%= f.text_field :theme, size: 50 %>
+			</li>
+			<li>
+				<%= f.label :starts_on %>
+				<%= f.date_select :starts_on %>
+			</li>
+			<li>
+				<%= f.label :ends_on %>
+				<%= f.date_select :ends_on %>
+			</li>
+			<li>
+				<%= f.label :charities %>
+				<%= f.text_field :charities, size: 50 %>
+			</li>
+			<li>
+				<%= f.label :guest_of_honor %>
+				<%= f.text_field :guest_of_honor, size: 50 %>
+			</li>
+			<li>
+				<%= f.label :prereg_by %>
+				<%= f.date_select :prereg_by %>
+			</li>
+			<li>
+				<%= f.label :image_file_name %>
+				<%= f.text_field :image_file_name, size: 30, placeholder: "GIF, JPG, or PNG file name" %>
+			</li>
+		</ol>
+		<p>
+			<%= f.submit %>
+			<%= link_to "Cancel", furcons_path, class: 'button' %>
+		</p>
+	</fieldset>
+<% end %>

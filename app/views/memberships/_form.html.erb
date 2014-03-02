@@ -1,0 +1,27 @@
+<%= form_for([@furcon, @membership]) do |f| %>
+	<%= render "shared/errors", object: @membership %>
+	<fieldset>
+		<ol>
+			<li class="required">
+				<%= f.label :name %>
+				<%= f.text_field :name, size: 40, autofocus: true, placeholder: "Nifty type you are..." %>
+			</li>
+			<li class="required">
+				<%= f.label :prereg_fee %>
+				<%= f.number_field :prereg_fee %>
+			</li>
+			<li class="required">
+				<%= f.label :reg_fee %>
+				<%= f.number_field :reg_fee %>
+			</li>
+			<li class="required">
+				<%= f.label :swag %>
+				<%= f.text_area :swag, cols: 80, rows: 8, placeholder: "What you get for your Niftyness..." %>
+			</li>
+		</ol>
+		<p>
+			<%= f.submit %> 
+			<%= link_to "Cancel", @furcon, class: 'button' %>
+		</p>
+	</fieldset>
+<% end %>
