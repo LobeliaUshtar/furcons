@@ -248,26 +248,10 @@
 	"buffers":
 	[
 		{
-			"file": "Gemfile",
+			"file": "/C/GitHub/crowdfund/db/schema.rb",
 			"settings":
 			{
-				"buffer_size": 1368,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/environments/production.rb",
-			"settings":
-			{
-				"buffer_size": 3250,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/_header.html.erb",
-			"settings":
-			{
-				"buffer_size": 212,
+				"buffer_size": 1428,
 				"line_ending": "Windows"
 			}
 		}
@@ -308,6 +292,18 @@
 	},
 	"file_history":
 	[
+		"/C/GitHub/furcons/app/assets/stylesheets/furcons.css.scss",
+		"/C/GitHub/furcons/app/views/layouts/_header.html.erb",
+		"/C/GitHub/furcons/crowdfund.bat",
+		"/C/GitHub/furcons/events.bat",
+		"/C/GitHub/furcons/flix.bat",
+		"/C/rails_studio/crowdfund/.gitignore",
+		"/C/GitHub/furcons/.gitignore",
+		"/C/rails_studio/furcons/app/views/layouts/_header.html.erb",
+		"/C/rails_studio/furcons/config/environments/production.rb",
+		"/C/rails_studio/furcons/Gemfile",
+		"/C/rails_studio/furcons/.rspec",
+		"/C/rails_studio/furcons/.gitignore",
 		"/C/Users/Gabby/.ssh/github_rsa.pub",
 		"/C/Users/Gabby/.ssh/id_rsa.pub",
 		"/C/rails_studio/furcons/bin/rake",
@@ -346,7 +342,6 @@
 		"/C/rails_studio/furcons/app/views/furcons/index.html.erb",
 		"/C/rails_studio/furcons/app/views/layouts/_footer.html.erb",
 		"/C/rails_studio/furcons/app/views/layouts/_sidebar.html.erb",
-		"/C/rails_studio/furcons/app/views/layouts/_header.html.erb",
 		"/C/rails_studio/x furcons/app/views/furcons/show.html.erb",
 		"/C/rails_studio/x furcons/app/views/layouts/application.html.erb",
 		"/C/rails_studio/furcons/spec/features/show_furcon_spec.rb",
@@ -375,7 +370,6 @@
 		"/C/rails_studio/x furcons/spec/features/navigate_furcons_spec.rb",
 		"/C/rails_studio/x furcons/db/migrate/20140210152611_create_furcons.rb",
 		"/C/rails_studio/furcons x/app/controllers/furcons_controller.rb",
-		"/C/rails_studio/furcons/.rspec",
 		"/C/rails_studio/furcons x/.rspec",
 		"/C/rails_studio/furcons/config/application.rb",
 		"/C/rails_studio/flix/config/application.rb",
@@ -385,8 +379,6 @@
 		"/C/rails_studio/furcons/db/migrate/20140223155735_add_fields_to_furcons.rb",
 		"/C/rails_studio/crowdfund/db/schema.rb",
 		"/C/rails_studio/x furcons/spec/support/attributes.rb",
-		"/C/rails_studio/furcons/Gemfile",
-		"/C/rails_studio/crowdfund/.gitignore",
 		"/C/rails_studio/crowdfund/Gemfile",
 		"/C/rails_studio/flix/db/seeds.rb",
 		"/C/rails_studio/flix/app/views/movies/show.html.erb",
@@ -427,15 +419,7 @@
 		"/C/rails_studio/flix/app/views/layouts/_sidebar.html.erb",
 		"/C/rails_studio/flix/app/views/layouts/_header.html.erb",
 		"/C/rails_studio/flix/app/views/layouts/_footer.html.erb",
-		"/C/rails_studio/flix/app/views/layouts/_flashes.html.erb",
-		"/C/rails_studio/flix/app/views/movies/_footer.html.erb",
-		"/C/rails_studio/flix/app/assets/stylesheets/normalize.css",
-		"/C/rails_studio/flix/app/assets/stylesheets/layout.css.scss",
-		"/C/rails_studio/flix/app/assets/stylesheets/forms.css.scss",
-		"/C/rails_studio/flix/app/assets/stylesheets/elements.css.scss",
-		"/C/rails_studio/flix/app/assets/stylesheets/buttons.css.scss",
-		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/exercise-solutions/17-assets/flix/app/views/layouts/_sidebar.html.erb",
-		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/exercise-solutions/17-assets/flix/app/assets/stylesheets/layout.css.scss"
+		"/C/rails_studio/flix/app/views/layouts/_flashes.html.erb"
 	],
 	"find":
 	{
@@ -454,6 +438,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"left",
 			"  ",
 			"furcon",
 			"  ",
@@ -580,8 +565,7 @@
 			"logo",
 			"  ",
 			"#F0F0F0",
-			"#237CBE",
-			"  "
+			"#237CBE"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -614,48 +598,23 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Gemfile",
+					"file": "/C/GitHub/crowdfund/db/schema.rb",
 					"settings":
 					{
-						"buffer_size": 1368,
+						"buffer_size": 1428,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								41,
-								41
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "config/environments/production.rb",
-					"settings":
-					{
-						"buffer_size": 3250,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1043,
-								1043
+								0,
+								0
 							]
 						],
 						"settings":
@@ -663,32 +622,6 @@
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/layouts/_header.html.erb",
-					"settings":
-					{
-						"buffer_size": 212,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								212,
-								212
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -834,7 +767,7 @@
 		[
 			[
 				"",
-				"/C/rails_studio/events/events.sublime-project"
+				"/C/GitHub/furcons/furcons.sublime-project"
 			]
 		],
 		"width": 380.0
