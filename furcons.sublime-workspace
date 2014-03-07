@@ -247,6 +247,31 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "spec/models/user_spec.rb",
+			"settings":
+			{
+				"buffer_size": 2443,
+				"line_ending": "Windows",
+				"name": "user_spec.rb"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 255,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/support/attributes.rb",
+			"settings":
+			{
+				"buffer_size": 828,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/RSpec/RSpec.sublime-build",
 	"command_palette":
@@ -284,6 +309,12 @@
 	},
 	"file_history":
 	[
+		"/C/GitHub/furcons/spec/helpers/users_helper_spec.rb",
+		"/C/GitHub/furcons/config/application.rb",
+		"/C/GitHub/furcons/Gemfile",
+		"/C/GitHub/events/spec/models/user_spec.rb",
+		"/C/GitHub/events/app/models/user.rb",
+		"/C/GitHub/events/spec/support/attributes.rb",
 		"/C/GitHub/furcons/app/views/layouts/_footer.html.erb",
 		"/C/GitHub/furcons/.gitignore",
 		"/C/GitHub/furcons/.git/config",
@@ -405,13 +436,7 @@
 		"/C/rails_studio/flix/db/migrate/20140218220250_create_reviews.rb",
 		"/C/rails_studio/flix/spec/features/delete_movie_spec.rb",
 		"/C/rails_studio/flix/spec/features/create_movie_spec.rb",
-		"/C/rails_studio/flix/spec/features/edit_movie_spec.rb",
-		"/C/rails_studio/flix/app/views/layouts/application.html.erb",
-		"/C/rails_studio/flix/app/controllers/application_controller.rb",
-		"/C/rails_studio/flix/app/assets/stylesheets/movies.css.scss",
-		"/C/rails_studio/flix/app/assets/stylesheets/_colors.scss",
-		"/C/Ruby200/lib/ruby/2.0.0/dl.rb",
-		"/C/rails_studio/flix/spec/features/list_movies_spec.rb"
+		"/C/rails_studio/flix/spec/features/edit_movie_spec.rb"
 	],
 	"find":
 	{
@@ -430,6 +455,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"  ",
+			"secret",
+			"  ",
 			"left",
 			"  ",
 			"furcon",
@@ -554,10 +582,7 @@
 			"name",
 			"  ",
 			"add.png",
-			"logo",
-			"  ",
-			"#F0F0F0",
-			"#237CBE"
+			"logo"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -590,8 +615,92 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "spec/models/user_spec.rb",
+					"settings":
+					{
+						"buffer_size": 2443,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1910,
+								1910
+							]
+						],
+						"settings":
+						{
+							"auto_name": "user_spec.rb",
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1080.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/models/user.rb",
+					"settings":
+					{
+						"buffer_size": 255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								255,
+								255
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "spec/support/attributes.rb",
+					"settings":
+					{
+						"buffer_size": 828,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								828,
+								828
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -730,7 +839,7 @@
 		[
 			[
 				"",
-				"/C/GitHub/crowdfund/crowdfund.sublime-project"
+				"/C/GitHub/flix/flix.sublime-project"
 			]
 		],
 		"width": 380.0

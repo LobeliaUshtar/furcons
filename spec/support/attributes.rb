@@ -21,3 +21,12 @@ def membership_attributes(overrides = {})
 		reg_fee: 40.00
 	}.merge(overrides)
 end
+
+def user_attributes(overrides = {})
+	{
+		name: "Example User",
+		email: "user@example.com",
+		password: "secretsecret",
+		password_confirmation: "secretsecret"
+	}.merge(overrides)
+end
