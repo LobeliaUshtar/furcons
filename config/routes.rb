@@ -1,6 +1,8 @@
 Furcons::Application.routes.draw do
+	resource :session
+	get "signin" => "sessions#new"
+	resources :users
 	get "signup" => "users#new"
-  resources :users
 
 	root "furcons#index"
 	resources :furcons do
