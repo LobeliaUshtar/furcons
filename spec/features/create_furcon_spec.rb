@@ -1,6 +1,10 @@
 require 'spec_helper'
 
 describe "Creating a new furcon" do
+	before do
+		admin = User.create!(user_attributes(admin: true))
+		sign_in(admin)
+	end
 
 	it "saves the furcon and shows the new furcon's details" do
 		visit furcons_url

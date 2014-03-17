@@ -61,6 +61,16 @@ Furcon.create!([
 	}
 ])
 
+User.create!([
+	{
+		name: "Gabby",
+		email: "gabby@example.com",
+		username: "gabby",
+		password: "secret",
+		password_confirmation: "secret",
+		admin: true
+	}
+])
 
 furcon = Furcon.find_by(name: 'Biggest Little Fur Con 2014')
 furcon.memberships.create!(name: "Radical", prereg_fee: 30.00, reg_fee: 40.00, swag: "Attendance, A collectible BLFC poker chip!")

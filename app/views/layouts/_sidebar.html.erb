@@ -4,9 +4,11 @@
 			<li class="all-furcons">
 				<%= link_to 'All Furcons', furcons_path, class: 'button' %>
 			</li>
+		<% if current_user_admin? %>
 			<li class="create-furcon">
 				<%= link_to 'Add New Furcon', new_furcon_path, class: 'button' %>
 			</li>
+		<% end %>
 		</ul>
 	</nav>
 </aside>
