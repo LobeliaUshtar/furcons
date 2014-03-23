@@ -36,10 +36,10 @@
 	</p>
 	<footer>
 		<nav>
+		<% if current_user_admin? %>
 			<p>
 				<%= link_to "Add a Membership", new_furcon_membership_path(@furcon), class: 'button ok membership' %>
-			</p>
-		<% if current_user_admin? %>
+			</p>		
 			<%= link_to 'Edit', edit_furcon_path(@furcon), class: 'button' %>
 			<%= link_to 'Delete', @furcon, class: 'button', method: :delete, data: { confirm: 'Are you sure?' } %>
 		<% end %>

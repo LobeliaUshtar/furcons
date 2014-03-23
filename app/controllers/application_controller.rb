@@ -4,9 +4,13 @@ class ApplicationController < ActionController::Base
 	protect_from_forgery with: :exception
 
 private
+	def set_session_url
+		session[:intended_url] = request.url
+	end
+
 	def require_signin
 		unless current_user
-			session[:intended_url] = request.url
+			set_session_url
 			redirect_to new_session_url, alert: "Please sign in first!"
 		end
 	end
@@ -25,6 +29,7 @@ private
 
 	def require_admin
 		unless current_user_admin?
+			set_session_url
 			redirect_to root_url, alert: "Unauthorized access!"
 		end
 	end

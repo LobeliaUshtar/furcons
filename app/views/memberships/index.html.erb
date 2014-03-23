@@ -9,6 +9,7 @@
 	<% @memberships.each do |membership| %>
 		<li>
 			<span class="user"><%= membership.name %></span>
+			<%= link_to "Edit Me", edit_furcon_membership_path(@furcon, membership), class: 'button' %>
 			<p>
 				<span>
 					<%= format_prereg_fee(membership) %><br/>

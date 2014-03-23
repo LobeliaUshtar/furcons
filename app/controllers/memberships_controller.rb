@@ -1,4 +1,6 @@
 class MembershipsController < ApplicationController
+	before_action :require_signin, except: [:index, :show]
+	before_action :require_admin, except: [:index, :show]
 	before_action :set_furcon
 
 	def set_furcon
@@ -20,6 +22,22 @@ class MembershipsController < ApplicationController
 		else
 			render :new
 		end
+	end
+
+	def edit
+		@membership = Membership.find(params[:id])
+	end
+
+	def update
+		if @membership.update(membership_params)
+			redirect_to @furcon, notice: "Membership successfully updated!"
+		else
+			render :edit
+		end
+	end
+
+	def destroy
+		
 	end
 
 private

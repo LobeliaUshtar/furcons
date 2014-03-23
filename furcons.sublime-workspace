@@ -252,6 +252,30 @@
 	"buffers":
 	[
 		{
+			"file": "app/models/membership.rb",
+			"settings":
+			{
+				"buffer_size": 188,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/memberships_controller.rb",
+			"settings":
+			{
+				"buffer_size": 925,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/memberships/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 570,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "app/controllers/furcons_controller.rb",
 			"settings":
 			{
@@ -260,27 +284,36 @@
 			}
 		},
 		{
-			"file": "app/controllers/application_controller.rb",
+			"file": "app/views/furcons/show.html.erb",
 			"settings":
 			{
-				"buffer_size": 796,
+				"buffer_size": 1120,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/memberships.css.scss",
+			"settings":
+			{
+				"buffer_size": 684,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/furcons/show.html.erb",
+			"file": "app/views/memberships/_form.html.erb",
 			"settings":
 			{
-				"buffer_size": 1118,
+				"buffer_size": 746,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/views/layouts/_sidebar.html.erb",
+			"file": "app/views/memberships/edit.html.erb",
 			"settings":
 			{
-				"buffer_size": 312,
-				"line_ending": "Windows"
+				"buffer_size": 140,
+				"line_ending": "Windows",
+				"name": "edit.html.erb"
 			}
 		}
 	],
@@ -320,18 +353,32 @@
 	},
 	"file_history":
 	[
+		"/C/GitHub/furcons/db/schema.rb",
+		"/C/GitHub/furcons/config/routes.rb",
+		"/C/GitHub/furcons/app/views/furcons/show.html.erb",
+		"/C/GitHub/furcons/app/controllers/application_controller.rb",
+		"/C/GitHub/furcons/app/controllers/furcons_controller.rb",
+		"/C/GitHub/furcons/app/models/furcon.rb",
+		"/C/GitHub/furcons/app/views/memberships/_form.html.erb",
+		"/C/GitHub/furcons/app/views/furcons/_form.html.erb",
+		"/C/GitHub/furcons/app/controllers/users_controller.rb",
+		"/C/GitHub/furcons/furcons.sublime-project",
+		"/C/GitHub/furcons/app/controllers/memberships_controller.rb",
+		"/C/GitHub/furcons/spec/models/furcon_spec.rb",
+		"/C/GitHub/furcons/spec/features/show_furcon_spec.rb",
+		"/C/GitHub/furcons/app/assets/stylesheets/layout.css.scss",
+		"/C/GitHub/furcons/db/seeds.rb",
+		"/C/GitHub/furcons/app/assets/stylesheets/furcons.css.scss",
+		"/C/GitHub/furcons/app/views/layouts/_sidebar.html.erb",
 		"/C/GitHub/furcons/spec/controllers/furcons_controller_spec.rb",
 		"/C/GitHub/furcons/db/migrate/20140317232514_add_admin_to_users.rb",
 		"/C/GitHub/furcons/spec/features/delete_furcon_spec.rb",
 		"/C/GitHub/furcons/spec/features/edit_furcon_spec.rb",
 		"/C/GitHub/furcons/spec/features/create_furcon_spec.rb",
-		"/C/GitHub/furcons/db/seeds.rb",
 		"/C/GitHub/furcons/app/controllers/sessions_controller.rb",
 		"/C/GitHub/furcons/spec/features/sign_in_spec.rb",
 		"/C/GitHub/furcons/app/views/users/show.html.erb",
 		"/C/GitHub/furcons/app/helpers/application_helper.rb",
-		"/C/GitHub/furcons/app/controllers/application_controller.rb",
-		"/C/GitHub/furcons/app/controllers/users_controller.rb",
 		"/C/GitHub/furcons/spec/controllers/users_controller_spec.rb",
 		"/C/GitHub/furcons/spec/features/show_user_spec.rb",
 		"/C/GitHub/furcons/spec/features/edit_user_spec.rb",
@@ -344,7 +391,6 @@
 		"/C/GitHub/furcons/spec/features/sign_out_spec.rb",
 		"/C/GitHub/furcons/spec/support/authentication.rb",
 		"/C/GitHub/furcons/app/views/sessions/new.html.erb",
-		"/C/GitHub/furcons/config/routes.rb",
 		"/C/GitHub/furcons/spec/features/create_user_spec.rb",
 		"/C/GitHub/furcons/app/models/user.rb",
 		"/C/GitHub/furcons/spec/models/user_spec.rb",
@@ -371,7 +417,6 @@
 		"/C/GitHub/events/.git/config",
 		"/C/GitHub/flix/.git/config",
 		"/C/GitHub/crowdfund/db/schema.rb",
-		"/C/GitHub/furcons/app/assets/stylesheets/furcons.css.scss",
 		"/C/GitHub/furcons/crowdfund.bat",
 		"/C/GitHub/furcons/events.bat",
 		"/C/GitHub/furcons/flix.bat",
@@ -435,19 +480,7 @@
 		"/C/rails_studio/x furcons/app/views/furcons/new.html.erb",
 		"/C/rails_studio/x furcons/app/views/furcons/edit.html.erb",
 		"/C/rails_studio/x furcons/spec/features/edit_furcon_spec.rb",
-		"/C/rails_studio/furcons/config/initializers/date_formats.rb",
-		"/C/rails_studio/x furcons/spec/features/show_furcon_spec.rb",
-		"/C/rails_studio/x furcons/config/routes.rb",
-		"/C/rails_studio/furcons/db/schema.rb",
-		"/C/rails_studio/x furcons/db/seeds.rb",
-		"/C/rails_studio/x furcons/spec/models/furcon_spec.rb",
-		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/exercise-solutions/09-test-first-5/flix/app/views/movies/show.html.erb",
-		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/exercise-solutions/09-test-first-4/flix/app/views/movies/show.html.erb",
-		"/C/rails_studio/x furcons/app/views/furcons/show.html (Clark Snowdall's conflicted copy 2014-02-14).erb",
-		"/C/rails_studio/x furcons/spec/features/navigate_furcons_spec.rb",
-		"/C/rails_studio/x furcons/db/migrate/20140210152611_create_furcons.rb",
-		"/C/rails_studio/furcons x/app/controllers/furcons_controller.rb",
-		"/C/rails_studio/furcons x/.rspec"
+		"/C/rails_studio/furcons/config/initializers/date_formats.rb"
 	],
 	"find":
 	{
@@ -467,6 +500,16 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"user",
+			"  ",
+			"title",
+			"  ",
+			"Movie",
+			"movie",
+			"  ",
+			"Movie",
+			"movie",
+			"  ",
 			"movie",
 			"Movie",
 			"  ",
@@ -584,17 +627,7 @@
 			"movies",
 			"  ",
 			"Movie",
-			"movies",
-			"  ",
-			"movies",
-			"Movie",
-			"  ",
-			"movies",
-			"  ",
-			"movies",
-			"  ",
-			"@movie",
-			"  "
+			"movies"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -627,23 +660,49 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/controllers/furcons_controller.rb",
+					"file": "app/models/membership.rb",
 					"settings":
 					{
-						"buffer_size": 1037,
+						"buffer_size": 188,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								668,
-								668
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/memberships_controller.rb",
+					"settings":
+					{
+						"buffer_size": 925,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								776,
+								776
 							]
 						],
 						"settings":
@@ -658,46 +717,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "app/controllers/application_controller.rb",
-					"settings":
-					{
-						"buffer_size": 796,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								755,
-								755
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 170.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 2,
-					"file": "app/views/furcons/show.html.erb",
+					"file": "app/views/memberships/index.html.erb",
 					"settings":
 					{
-						"buffer_size": 1118,
+						"buffer_size": 570,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								244,
-								244
+								301,
+								301
 							]
 						],
 						"settings":
@@ -713,24 +745,133 @@
 				},
 				{
 					"buffer": 3,
-					"file": "app/views/layouts/_sidebar.html.erb",
+					"file": "app/controllers/furcons_controller.rb",
 					"settings":
 					{
-						"buffer_size": 312,
+						"buffer_size": 1037,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								275,
-								275
+								491,
+								311
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/furcons/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 1120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								951,
+								969
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/assets/stylesheets/memberships.css.scss",
+					"settings":
+					{
+						"buffer_size": 684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								153
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/memberships/_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/views/memberships/edit.html.erb",
+					"settings":
+					{
+						"buffer_size": 140,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								42
+							]
+						],
+						"settings":
+						{
+							"auto_name": "edit.html.erb",
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -787,6 +928,50 @@
 		"selected_items":
 		[
 			[
+				"routs",
+				"config/routes.rb"
+			],
+			[
+				"show",
+				"app/views/furcons/show.html.erb"
+			],
+			[
+				"inde",
+				"app/views/memberships/index.html.erb"
+			],
+			[
+				"form",
+				"app/views/furcons/_form.html.erb"
+			],
+			[
+				"furcons",
+				"app/controllers/furcons_controller.rb"
+			],
+			[
+				"user",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"mem",
+				"app/controllers/memberships_controller.rb"
+			],
+			[
+				"fur",
+				"app/controllers/furcons_controller.rb"
+			],
+			[
+				"furcon",
+				"app/models/furcon.rb"
+			],
+			[
+				"sho",
+				"spec/features/show_furcon_spec.rb"
+			],
+			[
+				"shoe",
+				"spec/features/show_furcon_spec.rb"
+			],
+			[
 				"side",
 				"app/views/layouts/_sidebar.html.erb"
 			],
@@ -797,10 +982,6 @@
 			[
 				"appl",
 				"app/controllers/application_controller.rb"
-			],
-			[
-				"fur",
-				"app/controllers/furcons_controller.rb"
 			],
 			[
 				"session",
@@ -815,20 +996,12 @@
 				"spec/features/sign_in_spec.rb"
 			],
 			[
-				"show",
-				"app/views/users/show.html.erb"
-			],
-			[
 				"app",
 				"app/helpers/application_helper.rb"
 			],
 			[
 				"appli",
 				"app/controllers/application_controller.rb"
-			],
-			[
-				"user",
-				"app/controllers/users_controller.rb"
 			],
 			[
 				"dele",
@@ -859,14 +1032,6 @@
 				"app/views/layouts/_header.html.erb"
 			],
 			[
-				"furcon",
-				"app/models/furcon.rb"
-			],
-			[
-				"mem",
-				"app/models/membership.rb"
-			],
-			[
 				"att",
 				"spec/support/attributes.rb"
 			],
@@ -881,10 +1046,6 @@
 			[
 				"li",
 				"spec/features/list_furcons_spec.rb"
-			],
-			[
-				"sho",
-				"app/views/movies/show.html.erb"
 			],
 			[
 				"rev",
@@ -928,7 +1089,7 @@
 		[
 			[
 				"",
-				"/C/GitHub/events/events.sublime-project"
+				"/C/GitHub/furcons/furcons.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -937,6 +1098,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 227.0,
+	"side_bar_width": 187.0,
 	"status_bar_visible": true
 }
