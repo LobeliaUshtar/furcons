@@ -72,6 +72,7 @@ User.create!([
 	}
 ])
 
+
 furcon = Furcon.find_by(name: 'Biggest Little Fur Con 2014')
 furcon.memberships.create!(name: "Radical", prereg_fee: 30.00, reg_fee: 40.00, swag: "Attendance, A collectible BLFC poker chip!")
 furcon.memberships.create!(name: "Tubular", prereg_fee: 65.00, reg_fee: 75.00, swag: "Attendance, A collectible BLFC poker chip!, Convention T-shirt, A bitchin' collectible Rubik's Cube, A mention in the con book! (Register by Jan 31), A 5% chance of a free membership for next year")
@@ -80,8 +81,3 @@ furcon.memberships.create!(name: "SingleDay", prereg_fee: 0.00, reg_fee: 30.00, 
 
 furcon = Furcon.find_by(name: "Elliott's Spring Gathering 2014")
 furcon.memberships.create!(name: "~", prereg_fee: 55.00, reg_fee: 65.00, swag: "Attendance")
-
-=begin
-furcon = Furcon.find_by(name: )
-furcon.memberships.create!(name: , prereg_fee: , reg_fee: , swag: )
-=end

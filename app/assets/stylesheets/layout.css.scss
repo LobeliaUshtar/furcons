@@ -144,7 +144,11 @@ aside#sidebar {
 					background-color: $accent-color;
 					color: #000;
 				}
-
+				
+				a.active {
+					background-color: $subdued-color;
+					color: #000;
+				}
 			}
 		}
 	}
