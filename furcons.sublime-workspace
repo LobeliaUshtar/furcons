@@ -263,7 +263,7 @@
 			"file": "app/controllers/memberships_controller.rb",
 			"settings":
 			{
-				"buffer_size": 925,
+				"buffer_size": 1079,
 				"line_ending": "Unix"
 			}
 		},
@@ -271,7 +271,7 @@
 			"file": "app/views/memberships/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 570,
+				"buffer_size": 695,
 				"line_ending": "Windows"
 			}
 		},
@@ -289,31 +289,6 @@
 			{
 				"buffer_size": 1120,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/assets/stylesheets/memberships.css.scss",
-			"settings":
-			{
-				"buffer_size": 684,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/memberships/_form.html.erb",
-			"settings":
-			{
-				"buffer_size": 746,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/views/memberships/edit.html.erb",
-			"settings":
-			{
-				"buffer_size": 140,
-				"line_ending": "Windows",
-				"name": "edit.html.erb"
 			}
 		}
 	],
@@ -353,13 +328,15 @@
 	},
 	"file_history":
 	[
+		"/C/GitHub/furcons/app/views/memberships/edit.html.erb",
+		"/C/GitHub/furcons/app/views/memberships/_form.html.erb",
+		"/C/GitHub/furcons/app/assets/stylesheets/memberships.css.scss",
 		"/C/GitHub/furcons/db/schema.rb",
 		"/C/GitHub/furcons/config/routes.rb",
 		"/C/GitHub/furcons/app/views/furcons/show.html.erb",
 		"/C/GitHub/furcons/app/controllers/application_controller.rb",
 		"/C/GitHub/furcons/app/controllers/furcons_controller.rb",
 		"/C/GitHub/furcons/app/models/furcon.rb",
-		"/C/GitHub/furcons/app/views/memberships/_form.html.erb",
 		"/C/GitHub/furcons/app/views/furcons/_form.html.erb",
 		"/C/GitHub/furcons/app/controllers/users_controller.rb",
 		"/C/GitHub/furcons/furcons.sublime-project",
@@ -478,9 +455,7 @@
 		"/C/rails_studio/furcons/spec/features/navigate_furcons_spec.rb",
 		"/C/rails_studio/x furcons/spec/features/create_furcon_spec.rb",
 		"/C/rails_studio/x furcons/app/views/furcons/new.html.erb",
-		"/C/rails_studio/x furcons/app/views/furcons/edit.html.erb",
-		"/C/rails_studio/x furcons/spec/features/edit_furcon_spec.rb",
-		"/C/rails_studio/furcons/config/initializers/date_formats.rb"
+		"/C/rails_studio/x furcons/app/views/furcons/edit.html.erb"
 	],
 	"find":
 	{
@@ -660,7 +635,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -694,15 +669,15 @@
 					"file": "app/controllers/memberships_controller.rb",
 					"settings":
 					{
-						"buffer_size": 925,
+						"buffer_size": 1079,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								776,
-								776
+								883,
+								906
 							]
 						],
 						"settings":
@@ -711,7 +686,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 162.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -721,15 +696,15 @@
 					"file": "app/views/memberships/index.html.erb",
 					"settings":
 					{
-						"buffer_size": 570,
+						"buffer_size": 695,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								301,
-								301
+								384,
+								384
 							]
 						],
 						"settings":
@@ -755,8 +730,8 @@
 						"selection":
 						[
 							[
-								491,
-								311
+								695,
+								695
 							]
 						],
 						"settings":
@@ -766,7 +741,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 162.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -783,95 +758,14 @@
 						"selection":
 						[
 							[
-								951,
-								969
+								542,
+								542
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 378.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/assets/stylesheets/memberships.css.scss",
-					"settings":
-					{
-						"buffer_size": 684,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								153,
-								153
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/views/memberships/_form.html.erb",
-					"settings":
-					{
-						"buffer_size": 746,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/views/memberships/edit.html.erb",
-					"settings":
-					{
-						"buffer_size": 140,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								42,
-								42
-							]
-						],
-						"settings":
-						{
-							"auto_name": "edit.html.erb",
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

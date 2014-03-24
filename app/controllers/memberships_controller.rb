@@ -37,7 +37,9 @@ class MembershipsController < ApplicationController
 	end
 
 	def destroy
-		
+		@membership = Membership.find(params[:id])
+		@membership.destroy
+		redirect_to furcon_memberships_path(@furcon), alert: "Membership successfully deleted!"
 	end
 
 private
