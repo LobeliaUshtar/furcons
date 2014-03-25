@@ -1,0 +1,25 @@
+~ set up an Heroku account at https://www.heroku.com/ ~
+
+~ be sure to have your Git up to date and enter all the following in that directory~
+
+heroku login
+	~ enter your login info ~
+heroku create <name>
+	~ yes you will get a funky name if don't give a <name> at creation ~
+heroku keys:add
+	~use the id_rsa.pub ~
+
+git add .
+git push heroku master
+
+heroku run rake db:migrate
+heroku run rake db:seed
+heroku pg:reset DATABASE --confirm <name>
+
+git status
+git pull origin master
+git checkout <filename>
+git checkout *
+
+cls
+	~ clears command prompt screen ~

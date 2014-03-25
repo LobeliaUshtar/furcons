@@ -29,8 +29,9 @@ class MembershipsController < ApplicationController
 	end
 
 	def update
+		@membership = Membership.find(params[:id])
 		if @membership.update(membership_params)
-			redirect_to @furcon, notice: "Membership successfully updated!"
+			redirect_to furcon_memberships_path(@furcon), notice: "Membership successfully updated!"
 		else
 			render :edit
 		end

@@ -1,6 +1,11 @@
 require 'spec_helper'
 
-describe "Creating a new membership" do 
+describe "Creating a new membership" do
+	before do
+		admin = User.create!(user_attributes(admin: true))
+		sign_in(admin)
+	end
+
 	it "saves the membership" do		
 		furcon = Furcon.create(furcon_attributes)
 
@@ -30,7 +35,7 @@ describe "Creating a new membership" do
 		expect { 
 			click_button 'Create Membership' 
 		}.not_to change(Membership, :count)
-				
+		
 		expect(page).to have_text('error')
 	end
 
