@@ -3,7 +3,7 @@ class FurconsController < ApplicationController
 	before_action :require_admin, except: [:index, :show]
 
 	def index
-		@furcons = Furcon.ordered
+		@furcons = Furcon.upcoming
 	end
 
 	def show

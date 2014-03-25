@@ -6,11 +6,15 @@ class Furcon < ActiveRecord::Base
 	}
 
 	has_many :memberships, dependent: :destroy
+
+	scope :everything, -> { order(starts_on: :asc) }
+	scope :upcoming, -> { where("starts_on >= ?", Time.now).order(starts_on: :asc) }
+	scope :upcoming_prereg, -> { upcoming.where("prereg_by >= ?", Time.now).order(prereg_by: :asc) }
+	scope :past, -> { where("starts_on < ?", Time.now).order(starts_on: :desc) }
+	scope :recent, ->(r=3) { past.limit(r) }
 	
 	def charity?
 		charities.blank?
 	end
-	def self.ordered
-		order(starts_on: :asc)
-	end
+
 end

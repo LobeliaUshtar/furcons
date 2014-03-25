@@ -83,4 +83,42 @@ describe "A furcon" do
 		}.to change(Membership, :count).by(-1)
 	end
 
+	context "upcoming query" do
+		it "returns the furcons with a released on date in the future" do
+			furcon1 = Furcon.create(furcon_attributes(starts_on: 3.months.ago))
+			furcon2 = Furcon.create(furcon_attributes(starts_on: 3.months.from_now))
+
+			expect(Furcon.upcoming).to eq([furcon2])
+		end
+	end
+
+	context "upcoming prereg query" do
+		it "returns the furcons with a released on date in the future" do
+			furcon1 = Furcon.create(furcon_attributes(prereg_by: 3.months.ago))
+			furcon2 = Furcon.create(furcon_attributes(prereg_by: 3.months.from_now))
+
+			expect(Furcon.upcoming_prereg).to eq([furcon2])
+		end
+	end
+
+	context "recent query" do
+		before do
+			@furcon1 = Furcon.create(furcon_attributes(starts_on: 3.months.ago))
+			@furcon2 = Furcon.create(furcon_attributes(starts_on: 2.months.ago))
+			@furcon3 = Furcon.create(furcon_attributes(starts_on: 1.months.ago))
+			@furcon4 = Furcon.create(furcon_attributes(starts_on: 1.week.ago))
+			@furcon5 = Furcon.create(furcon_attributes(starts_on: 1.day.ago))
+			@furcon6 = Furcon.create(furcon_attributes(starts_on: 1.hour.ago))
+			@furcon7 = Furcon.create(furcon_attributes(starts_on: 1.day.from_now))
+		end
+
+		it "returns a specified number of released furcons ordered with the most recent furcon first" do
+			expect(Furcon.recent(2)).to eq([@furcon6, @furcon5])
+		end
+
+		it "returns a default of 3 released furcons ordered with the most recent furcon first" do
+			expect(Furcon.recent).to eq([@furcon6, @furcon5, @furcon4])
+		end
+	end
+
 end

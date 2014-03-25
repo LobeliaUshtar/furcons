@@ -17,11 +17,11 @@ describe "Creating a new furcon" do
 		fill_in "Website", with: "http://SweetiePie.com"
 		fill_in "Location", with: "Budd Lake, NJ"
 		fill_in "Theme", with: "GO WEST!!!"
-		# fill_in "Starts on", with: "2014-04-17"
-		# fill_in "Ends on", with: "2014-10-24"
+		select (Time.now.year - 1).to_s, from: "furcon_starts_on_1i"
+		select (Time.now.year - 1).to_s, from: "furcon_ends_on_1i"
 		fill_in "Charities", with: "LU to CA"
 		fill_in "Guest of honor", with: "Ivanhorse Titanium"
-		# fill_in "Prereg by", with: "2014-03-01"
+		select (Time.now.year - 1).to_s, from: "furcon_prereg_by_1i"
 		fill_in "Image file name", with: "furcon.png"
 
 		# If you're taking advantage of the HTML 5 date field in Chrome, 

@@ -7,12 +7,12 @@ describe "Viewing the list of furcons" do
 
 		visit furcons_url
 
-		# expect(page).to have_text("1 Furcon")
 		expect(page).to have_text(furcon.name)
 		expect(page).to have_text(furcon.website)
 		expect(page).to have_text(furcon.location)
 		expect(page).to have_text(furcon.starts_on)
 		expect(page).to have_text(furcon.ends_on)
+		expect(page).to have_selector("img[src$='#{furcon.image_file_name}']")
 	end
 	
 	it "does show furcons in order" do

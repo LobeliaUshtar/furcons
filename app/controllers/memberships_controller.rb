@@ -37,7 +37,7 @@ class MembershipsController < ApplicationController
 		end
 	end
 
-	def destroy #Routing Error = No route matches [DELETE] "/furcons/1/memberships"
+	def destroy
 		@membership = Membership.find(params[:id])
 		@membership.destroy
 		redirect_to furcon_memberships_path(@furcon), alert: "Membership successfully deleted!"
