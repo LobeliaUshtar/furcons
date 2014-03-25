@@ -10,15 +10,14 @@
 		<li>
 			<span class="user"><%= membership.name %></span>
 			<%= link_to 'Edit Me', edit_furcon_membership_path(@furcon, membership), class: 'button' %>
-			<%= link_to 'Delete Me', furcon_memberships_path(@furcon), class: 'button', method: :delete, data: { confirm: 'Are you sure?' } %>
-<!-- 			Routing Error = No route matches [DELETE] "/furcons/1/memberships" -->
+			<%= link_to 'Delete Me', furcon_membership_path(@furcon, membership), class: 'button', method: :delete, data: { confirm: "Are you sure you want to delete #{membership.name}?" } %>
 			<p>
 				<span>
 					<%= format_prereg_fee(membership) %><br/>
 					<%= number_to_currency(membership.reg_fee) %> after PreRegistration Date
 					<br/>
 				</span>
-				&quot;<%= membership.swag %>&quot;
+				<%= membership.swag %>
 			</p>
 		</li>
 	<% end %>

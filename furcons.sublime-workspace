@@ -637,7 +637,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -686,7 +686,8 @@
 						"settings":
 						{
 							"auto_name": "edit_membership_spec.rb",
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 108.0,
@@ -713,7 +714,8 @@
 						"settings":
 						{
 							"auto_name": "delete_membership_spec.rb",
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"translate_tabs_to_spaces": false,
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
