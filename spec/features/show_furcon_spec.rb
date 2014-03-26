@@ -32,4 +32,11 @@ describe "Viewing an individual furcon" do
 		expect(page).to have_text("No Charity Yet")
 	end
 
+	it "includes the furcon's name in the page title" do
+		furcon = Furcon.create!(furcon_attributes)
+
+		visit furcon_url(furcon)
+
+		expect(page).to have_title("Furcons - #{furcon.name}")
+	end
 end
