@@ -7,7 +7,7 @@ describe "Navigating furcons" do
 
 		visit furcon_url(furcon)
 
-		click_link "All Furcons"
+		click_link "Upcoming"
 
 		expect(current_path).to eq(furcons_path)
 	end

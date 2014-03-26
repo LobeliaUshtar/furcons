@@ -1,5 +1,17 @@
 Furcon.create!([
 	{
+		name: "Further Confusion 2014",
+		website: "http://www.furtherconfusion.org/2014/",
+		location: "San Jose Convention Center, San Jose Marriott, and San Jose Hilton in San Jose, California",
+		theme: "Further Confusion vs. The World",
+		starts_on: "2014-01-16",
+		ends_on: "2014-01-20",
+		charities: "Digital Game Museum",
+		guest_of_honor: "Mitti, PRguitarman (Chris Torres)",
+		prereg_by: "2013-12-31",
+		image_file_name: "Further_Confusion_2014.jpg"
+	},
+	{
 		name: "Biggest Little Fur Con 2014",
 		website: "http://biggestlittlefurcon.org/index.php",
 		location: "The Grand Sierra Resort in Reno, Nevada",

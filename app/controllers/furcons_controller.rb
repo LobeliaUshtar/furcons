@@ -3,7 +3,7 @@ class FurconsController < ApplicationController
 	before_action :require_admin, except: [:index, :show]
 
 	def index
-		@furcons = Furcon.upcoming
+		@furcons = Furcon.send(furcons_scope)
 	end
 
 	def show
@@ -45,6 +45,14 @@ class FurconsController < ApplicationController
 private
 	def furcon_params
 		furcon_params = params.require(:furcon).permit(:name, :website, :location, :theme, :starts_on, :ends_on, :prereg_by, :charities, :guest_of_honor, :image_file_name)
+	end
+
+	def furcons_scope
+		if params[:scope].in? %w(past upcoming_prereg everything upcoming recent)
+			params[:scope]
+		else
+			:upcoming
+		end
 	end
 
 end

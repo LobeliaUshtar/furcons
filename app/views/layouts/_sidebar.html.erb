@@ -1,12 +1,24 @@
 <aside id="sidebar">
 	<nav>
 		<ul>
-			<li class="all-furcons">
-				<%= link_to 'All Furcons', furcons_path, class: 'button' %>
+			<li class="furcons">
+				<%= nav_link_to 'All Furcons', filtered_furcons_path(:everything) %>
+			</li>
+			<li class="furcons">
+				<%= nav_link_to 'Can still PreReg!', filtered_furcons_path(:upcoming_prereg) %>
+			</li>
+			<li class="furcons">
+				<%= nav_link_to 'Upcoming', furcons_path %>
+			</li>
+			<li class="furcons">
+				<%= nav_link_to 'Past', filtered_furcons_path(:past) %>
+			</li>
+			<li class="furcons">
+				<%= nav_link_to 'Recent', filtered_furcons_path(:recent) %>
 			</li>
 		<% if current_user_admin? %>
 			<li class="create-furcon">
-				<%= link_to 'Add New Furcon', new_furcon_path, class: 'button' %>
+				<%= nav_link_to 'Add New Furcon', new_furcon_path %>
 			</li>
 		<% end %>
 		</ul>
