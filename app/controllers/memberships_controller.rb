@@ -3,10 +3,6 @@ class MembershipsController < ApplicationController
 	before_action :require_admin, except: [:index, :show]
 	before_action :set_furcon
 
-	def set_furcon
-		@furcon = Furcon.find(params[:furcon_id])
-	end
-
 	def index
 		@memberships = @furcon.memberships
 	end
@@ -46,6 +42,10 @@ class MembershipsController < ApplicationController
 private
 	def membership_params
 		params.require(:membership).permit(:name, :swag, :prereg_fee, :reg_fee)
+	end
+
+	def set_furcon
+		@furcon = Furcon.find_by!(slug: params[:furcon_id])
 	end
 
 end

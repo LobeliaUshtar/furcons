@@ -7,7 +7,7 @@ describe "Editing a membership" do
 	end
 
 	it "updates the membership and shows the furcon's membership listing" do
-		furcon = Furcon.create(furcon_attributes)
+		furcon = Furcon.create!(furcon_attributes)
 		
 		visit furcon_memberships_url(furcon)
 		
@@ -27,7 +27,7 @@ describe "Editing a membership" do
 	end
 
 	it "does not update the membership if it's invalid" do
-		furcon = Furcon.create(furcon_attributes)
+		furcon = Furcon.create!(furcon_attributes)
 		
 		visit edit_furcon_membership_url(furcon)	# no route matches
 		

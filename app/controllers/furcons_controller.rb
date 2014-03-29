@@ -1,21 +1,19 @@
 class FurconsController < ApplicationController
 	before_action :require_signin, except: [:index, :show]
 	before_action :require_admin, except: [:index, :show]
+	before_action :set_furcon, only: [:show, :edit, :update, :destroy]
 
 	def index
 		@furcons = Furcon.send(furcons_scope)
 	end
 
 	def show
-		@furcon = Furcon.find(params[:id])
 	end
 
 	def edit
-		@furcon = Furcon.find(params[:id])
 	end
 
 	def update
-		@furcon = Furcon.find(params[:id])
 		if @furcon.update(furcon_params)
 			redirect_to @furcon, notice: "Furcon successfully updated!"
 		else
@@ -37,14 +35,13 @@ class FurconsController < ApplicationController
 	end
 
 	def destroy
-		@furcon = Furcon.find(params[:id])
 		@furcon.destroy
 		redirect_to furcons_url, alert: "Furcon successfully deleted!"
 	end
 
 private
 	def furcon_params
-		furcon_params = params.require(:furcon).permit(:name, :website, :location, :theme, :starts_on, :ends_on, :prereg_by, :charities, :guest_of_honor, :image_file_name)
+		furcon_params = params.require(:furcon).permit(:name, :website, :location, :theme, :starts_on, :ends_on, :prereg_by, :charities, :guest_of_honor, :image_file_name, :slug)
 	end
 
 	def furcons_scope
@@ -53,6 +50,10 @@ private
 		else
 			:upcoming
 		end
+	end
+
+	def set_furcon
+		@furcon = Furcon.find_by!(slug: params[:id])
 	end
 
 end

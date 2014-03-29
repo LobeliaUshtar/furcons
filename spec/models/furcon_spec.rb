@@ -85,31 +85,29 @@ describe "A furcon" do
 
 	context "upcoming query" do
 		it "returns the furcons with a released on date in the future" do
-			furcon1 = Furcon.create(furcon_attributes(starts_on: 3.months.ago))
-			furcon2 = Furcon.create(furcon_attributes(starts_on: 3.months.from_now))
-
-			expect(Furcon.upcoming).to eq([furcon2])
+			furcon = Furcon.create!(furcon_attributes(starts_on: 3.months.from_now))
+			
+			expect(Furcon.upcoming).to include(furcon)
 		end
 	end
 
 	context "upcoming prereg query" do
 		it "returns the furcons with a released on date in the future" do
-			furcon1 = Furcon.create(furcon_attributes(prereg_by: 3.months.ago))
-			furcon2 = Furcon.create(furcon_attributes(prereg_by: 3.months.from_now))
-
-			expect(Furcon.upcoming_prereg).to eq([furcon2])
+			furcon = Furcon.create!(furcon_attributes(prereg_by: 3.months.from_now))
+			
+			expect(Furcon.upcoming_prereg).to include(furcon)
 		end
 	end
 
 	context "recent query" do
 		before do
-			@furcon1 = Furcon.create(furcon_attributes(starts_on: 3.months.ago))
-			@furcon2 = Furcon.create(furcon_attributes(starts_on: 2.months.ago))
-			@furcon3 = Furcon.create(furcon_attributes(starts_on: 1.months.ago))
-			@furcon4 = Furcon.create(furcon_attributes(starts_on: 1.week.ago))
-			@furcon5 = Furcon.create(furcon_attributes(starts_on: 1.day.ago))
-			@furcon6 = Furcon.create(furcon_attributes(starts_on: 1.hour.ago))
-			@furcon7 = Furcon.create(furcon_attributes(starts_on: 1.day.from_now))
+			@furcon1 = Furcon.create!(furcon_attributes(starts_on: 3.months.ago))
+			@furcon2 = Furcon.create!(furcon_attributes(starts_on: 2.months.ago))
+			@furcon3 = Furcon.create!(furcon_attributes(starts_on: 1.months.ago))
+			@furcon4 = Furcon.create!(furcon_attributes(starts_on: 1.week.ago))
+			@furcon5 = Furcon.create!(furcon_attributes(starts_on: 1.day.ago))
+			@furcon6 = Furcon.create!(furcon_attributes(starts_on: 1.hour.ago))
+			@furcon7 = Furcon.create!(furcon_attributes(starts_on: 1.day.from_now))
 		end
 
 		it "returns a specified number of released furcons ordered with the most recent furcon first" do
@@ -121,4 +119,25 @@ describe "A furcon" do
 		end
 	end
 
+	it "generates a slug when it's created" do
+		furcon = Furcon.create!(furcon_attributes(name: "Gabby Con"))
+
+		expect(furcon.slug).to eq("gabby-con")
+	end
+
+	it "requires a unique name" do
+		furcon1 = Furcon.create!(furcon_attributes)
+
+		furcon2 = Furcon.new(name: furcon1.name)
+		expect(furcon2.valid?).to be_false
+		expect(furcon2.errors[:name].first).to eq("has already been taken")
+	end
+
+	it "requires a unique slug" do
+		furcon1 = Furcon.create!(furcon_attributes)
+
+		furcon2 = Furcon.new(slug: furcon1.slug)
+		expect(furcon2.valid?).to be_false
+		expect(furcon2.errors[:slug].first).to eq("has already been taken")
+	end
 end

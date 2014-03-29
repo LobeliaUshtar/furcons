@@ -24,4 +24,13 @@ describe "Viewing a user's profile page" do
 		expect(page).to have_title("Furcons - #{user.name}")
 	end
 
+	it "has an SEO-friendly URL" do
+		user = User.create!(user_attributes(name: "Example User"))
+
+		sign_in(user)
+
+		visit user_url(user)
+
+		expect(current_path).to eq("/users/example-user")
+	end
 end

@@ -1,7 +1,10 @@
 class User < ActiveRecord::Base
+	before_validation :generate_slug
+
 	has_secure_password
 	
-	validates :name, presence: true
+	validates :name, presence: true, uniqueness: true
+	validates :slug, uniqueness: true
 	validates :email, presence: true, format: /\A\S+@\S+\z/, uniqueness: { case_sensitive: false }
 	validates :password, length: { minimum: 5, allow_blank: true }
 	validates :username, presence: true, format: /\A[A-Z0-9]+\z/i, uniqueness: { case_sensitive: false }
@@ -18,4 +21,11 @@ class User < ActiveRecord::Base
 		user && user.authenticate(password)
 	end
 
+	def to_param
+		slug
+	end
+
+	def generate_slug
+		self.slug ||= name.parameterize if name
+	end
 end

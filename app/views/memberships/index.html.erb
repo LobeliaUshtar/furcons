@@ -9,8 +9,10 @@
 	<% @memberships.each do |membership| %>
 		<li>
 			<span class="user"><%= membership.name %></span>
-			<%= link_to 'Edit Me', edit_furcon_membership_path(@furcon, membership), class: 'button' %>
-			<%= link_to 'Delete Me', furcon_membership_path(@furcon, membership), class: 'button', method: :delete, data: { confirm: "Are you sure you want to delete <b>#{membership.name}</b>?" } %>
+			<% if current_user_admin? %>
+				<%= link_to 'Edit Me', edit_furcon_membership_path(@furcon, membership), class: 'button' %>
+				<%= link_to 'Delete Me', furcon_membership_path(@furcon, membership), class: 'button', method: :delete, data: { confirm: "Are you sure you want to delete <b>#{membership.name}</b>?" } %>
+			<% end %>
 			<p>
 				<span>
 					<%= format_prereg_fee(membership) %><br/>

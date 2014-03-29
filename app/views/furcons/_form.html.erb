@@ -42,6 +42,12 @@
 				<%= f.label :image_file_name %>
 				<%= f.text_field :image_file_name, size: 30, placeholder: "GIF, JPG, or PNG file name" %>
 			</li>
+			<% unless @furcon.new_record? %>
+				<li>
+					<%= f.label :slug %>
+					<%= f.text_field :slug, size: 30 %>
+				</li>
+			<% end %>
 		</ol>
 		<p>
 			<%= f.submit %>

@@ -39,4 +39,12 @@ describe "Viewing an individual furcon" do
 
 		expect(page).to have_title("Furcons - #{furcon.name}")
 	end
+
+	it "has an SEO-friendly URL" do
+		furcon = Furcon.create!(furcon_attributes(name: "Gabby Con"))
+
+		visit furcon_url(furcon)
+
+		expect(current_path).to eq("/furcons/gabby-con")
+	end
 end

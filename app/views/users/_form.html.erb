@@ -22,6 +22,12 @@
 				<%= f.label :password_confirmation, "Confirm Password" %>
 				<%= f.password_field :password_confirmation, size: 40 %>
 			</li>
+			<% unless @user.new_record? %>
+				<li>
+					<%= f.label :slug %>
+					<%= f.text_field :slug, size: 30 %>
+				</li>
+			<% end %>
 		</ol>
 		<p>
 			<% if @user.new_record? %>

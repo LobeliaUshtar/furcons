@@ -1,6 +1,7 @@
 def furcon_attributes(overrides = {})
+	random_number = (0..9).to_a.shuffle[0..10].join
 	{
-		name: "Biggest Little Fur Con 2014",
+		name: "Biggest Little Fur Con 2014 #{random_number}",
 		website: "http://biggestlittlefurcon.org/index.php",
 		location: "The Grand Sierra Resort in Reno, Nevada",
 		theme: "80s Pop Culture",

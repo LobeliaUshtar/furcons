@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140317232514) do
+ActiveRecord::Schema.define(version: 20140327143241) do
 
   create_table "furcons", force: true do |t|
     t.string   "name"
@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 20140317232514) do
     t.string   "guest_of_honor"
     t.date     "prereg_by"
     t.string   "image_file_name"
+    t.string   "slug"
   end
 
   create_table "memberships", force: true do |t|
@@ -48,6 +49,7 @@ ActiveRecord::Schema.define(version: 20140317232514) do
     t.datetime "updated_at"
     t.string   "username"
     t.boolean  "admin",           default: false
+    t.string   "slug"
   end
 
 end
