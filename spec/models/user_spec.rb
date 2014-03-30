@@ -110,23 +110,19 @@ describe "authenticate" do
 	end
 
 	it "generates a slug when it's created" do
-		user = User.create!(user_attributes(name: "Example User"))
-
-		expect(user.slug).to eq("example-user")
+		expect(@user.slug).to eq("example-user")
 	end
 
 	it "requires a unique name" do
-		user1 = User.create!(user_attributes)
-		user2 = User.new(name: user1.name)
+		user2 = User.new(name: @user.name)
 		
 		expect(user2.valid?).to be_false
 		expect(user2.errors[:name].first).to eq("has already been taken")
 	end
 
 	it "requires a unique slug" do
-		user1 = User.create!(user_attributes)
+		user2 = User.new(slug: @user.slug)
 
-		user2 = User.new(slug: user1.slug)
 		expect(user2.valid?).to be_false
 		expect(user2.errors[:slug].first).to eq("has already been taken")
 	end

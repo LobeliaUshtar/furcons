@@ -44,7 +44,7 @@ describe UsersController do
 		
 	end
 	
-	context "when signed in as the wrong user" do
+	context "when signed in as the wrong user" do	#eep
 		
 		before do
 			@wrong_user = User.create!(user_attributes(email: "wrong@example.com", username: "wrong"))

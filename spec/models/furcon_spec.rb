@@ -93,7 +93,7 @@ describe "A furcon" do
 
 	context "upcoming prereg query" do
 		it "returns the furcons with a released on date in the future" do
-			furcon = Furcon.create!(furcon_attributes(prereg_by: 3.months.from_now))
+			furcon = Furcon.create!(furcon_attributes(prereg_by: 3.months.from_now, starts_on: 4.months.from_now))
 			
 			expect(Furcon.upcoming_prereg).to include(furcon)
 		end

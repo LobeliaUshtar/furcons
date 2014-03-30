@@ -27,7 +27,7 @@ describe "Filtering furcons" do
 	end
 
 	it "shows upcoming furcons that you can still prereg for" do
-		furcon = Furcon.create!(furcon_attributes(prereg_by: 1.day.from_now))
+		furcon = Furcon.create!(furcon_attributes(prereg_by: 1.month.from_now, starts_on: 2.month.from_now))
 
 		visit furcons_url
 
