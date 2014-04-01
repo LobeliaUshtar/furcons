@@ -23,10 +23,6 @@ describe "Creating a new furcon" do
 		fill_in "Guest of honor", with: "Ivanhorse Titanium"
 		select (Time.now.year - 1).to_s, from: "furcon_prereg_by_1i"
 		fill_in "Image file name", with: "furcon.png"
-
-		# If you're taking advantage of the HTML 5 date field in Chrome, 
-		# you'll need to use 'fill_in' rather than 'select'
-		# fill_in "Released on", with: (Time.now.year - 1).to_s
 		 
 		click_button 'Create Furcon'
 

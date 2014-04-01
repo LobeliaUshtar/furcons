@@ -5,11 +5,11 @@ def furcon_attributes(overrides = {})
 		website: "http://biggestlittlefurcon.org/index.php",
 		location: "The Grand Sierra Resort in Reno, Nevada",
 		theme: "80s Pop Culture",
-		starts_on: "2014-03-28",
-		ends_on: "2014-03-30",
+		starts_on: 2.months.from_now,
+		ends_on: 3.months.from_now,
 		charities: "Safe Haven Rescue Zoo",
 		guest_of_honor: "Sidian (Linsey Huish), Kijani",
-		prereg_by: "2014-02-28",
+		prereg_by: 1.months.from_now,
 		image_file_name: "Biggest_Little_Fur_Con_2014.png"
 	}.merge(overrides)
 end

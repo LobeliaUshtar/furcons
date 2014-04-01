@@ -2,8 +2,8 @@ require 'spec_helper'
 
 describe "Viewing the list of furcons" do
 
-	it "shows the furcons" do	#eep
-		furcon = Furcon.create!(furcon_attributes)
+	it "shows the furcons" do
+		furcon = Furcon.create(furcon_attributes)
 
 		visit furcons_url
 

@@ -17,7 +17,7 @@ describe "Navigating furcons" do
 
 		visit furcons_url
 
-		click_link furcon.name	#eep
+		click_link furcon.name
 
 		expect(current_path).to eq(furcon_path(furcon))
 	end

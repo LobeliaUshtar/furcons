@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"bef",
+				"bef	before"
+			],
+			[
 				"prereg",
 				"prereg_by"
 			],
@@ -279,6 +283,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "spec/features/edit_membership_spec.rb",
+			"settings":
+			{
+				"buffer_size": 992,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "spec/features/delete_membership_spec.rb",
+			"settings":
+			{
+				"buffer_size": 502,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/RSpec/RSpec.sublime-build",
 	"command_palette":
@@ -316,15 +336,27 @@
 	},
 	"file_history":
 	[
-		"/C/GitHub/furcons/spec/support/attributes.rb",
+		"/C/GitHub/events/spec/helpers/users_helper_spec.rb",
 		"/C/GitHub/furcons/spec/features/navigate_furcons_spec.rb",
-		"/C/GitHub/events/spec/features/navigate_events_spec.rb",
-		"/C/GitHub/furcons/spec/features/delete_user_spec.rb",
 		"/C/GitHub/furcons/spec/features/list_furcons_spec.rb",
 		"/C/GitHub/furcons/spec/features/filter_furcons_spec.rb",
+		"/C/GitHub/furcons/spec/features/create_furcon_spec.rb",
 		"/C/GitHub/furcons/app/controllers/users_controller.rb",
+		"/C/GitHub/furcons/spec/features/delete_user_spec.rb",
+		"/C/GitHub/furcons/spec/features/edit_user_spec.rb",
+		"/C/GitHub/furcons/spec/support/attributes.rb",
 		"/C/GitHub/furcons/spec/controllers/users_controller_spec.rb",
 		"/C/GitHub/furcons/app/models/user.rb",
+		"/C/GitHub/furcons/spec/features/show_furcon_spec.rb",
+		"/C/GitHub/events/spec/support/attributes.rb",
+		"/C/GitHub/furcons/spec/features/list_users_spec.rb",
+		"/C/GitHub/furcons/spec/features/list_memberships_spec.rb",
+		"/C/GitHub/furcons/spec/features/delete_furcon_spec.rb",
+		"/C/GitHub/flix/spec/features/delete_user_spec.rb",
+		"/C/GitHub/events/spec/features/delete_user_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/13-friendly-urls/flix/spec/features/delete_user_spec.rb",
+		"/C/GitHub/furcons/db/test.sqlite3",
+		"/C/GitHub/events/spec/features/navigate_events_spec.rb",
 		"/C/GitHub/furcons/spec/models/user_spec.rb",
 		"/C/GitHub/furcons/spec/models/furcon_spec.rb",
 		"/C/GitHub/furcons/app/models/furcon.rb",
@@ -333,19 +365,16 @@
 		"/C/GitHub/furcons/spec/features/show_user_spec.rb",
 		"/C/GitHub/events/spec/controllers/users_controller_spec.rb",
 		"/C/GitHub/furcons/db/schema.rb",
-		"/C/GitHub/furcons/spec/features/show_furcon_spec.rb",
 		"/C/GitHub/furcons/app/helpers/users_helper.rb",
 		"/C/GitHub/furcons/app/views/furcons/_form.html.erb",
 		"/C/GitHub/furcons/app/views/memberships/index.html.erb",
 		"/C/GitHub/furcons/spec/features/edit_membership_spec.rb",
-		"/C/GitHub/furcons/spec/features/list_memberships_spec.rb",
 		"/C/GitHub/furcons/app/controllers/memberships_controller.rb",
 		"/C/GitHub/furcons/app/views/furcons/show.html.erb",
 		"/C/GitHub/furcons/app/views/furcons/index.html.erb",
 		"/C/GitHub/furcons/app/controllers/furcons_controller.rb",
 		"/C/GitHub/events/app/controllers/registrations_controller.rb",
 		"/C/GitHub/events/spec/models/event_spec.rb",
-		"/C/GitHub/events/spec/support/attributes.rb",
 		"/C/GitHub/events/app/models/event.rb",
 		"/C/GitHub/furcons/app/assets/stylesheets/_colors.scss",
 		"/C/GitHub/furcons/app/assets/stylesheets/layout.css.scss",
@@ -370,9 +399,7 @@
 		"/C/GitHub/furcons/spec/features/delete_membership_spec.rb",
 		"/C/GitHub/furcons/app/views/furcons/new.html.erb",
 		"/C/GitHub/furcons/spec/features/create_user_spec.rb",
-		"/C/GitHub/furcons/spec/features/delete_furcon_spec.rb",
 		"/C/GitHub/furcons/db/migrate/20140324144849_add_extra_image_fields_to_furcons.rb",
-		"/C/GitHub/furcons/spec/features/create_furcon_spec.rb",
 		"/C/GitHub/furcons/Heroku commands.txt",
 		"/C/GitHub/furcons/app/helpers/furcons_helper.rb",
 		"/C/GitHub/furcons/Gemfile",
@@ -386,8 +413,6 @@
 		"/C/GitHub/furcons/spec/features/edit_furcon_spec.rb",
 		"/C/GitHub/furcons/app/controllers/sessions_controller.rb",
 		"/C/GitHub/furcons/spec/features/sign_in_spec.rb",
-		"/C/GitHub/furcons/spec/features/edit_user_spec.rb",
-		"/C/GitHub/furcons/spec/features/list_users_spec.rb",
 		"/C/GitHub/flix/spec/controllers/users_controller_spec.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/05-authorization-1/flix/spec/features/list_users_spec.rb",
 		"/C/GitHub/furcons/spec/helpers/users_helper_spec.rb",
@@ -438,12 +463,7 @@
 		"/C/rails_studio/furcons/app/helpers/memberships_helper.rb",
 		"/C/rails_studio/furcons/app/helpers/furcons_helper.rb",
 		"/C/rails_studio/furcons/app/models/furcon.rb",
-		"/C/rails_studio/furcons/app/models/membership.rb",
-		"/C/rails_studio/furcons/app/views/shared/_errors.html.erb",
-		"/C/rails_studio/furcons/app/views/furcons/_form.html.erb",
-		"/C/rails_studio/furcons/app/controllers/furcons_controller.rb",
-		"/C/rails_studio/furcons/app/views/furcons/show.html.erb",
-		"/C/rails_studio/furcons/app/assets/stylesheets/furcons.css.scss"
+		"/C/rails_studio/furcons/app/models/membership.rb"
 	],
 	"find":
 	{
@@ -623,8 +643,63 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "spec/features/edit_membership_spec.rb",
+					"settings":
+					{
+						"buffer_size": 992,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "spec/features/delete_membership_spec.rb",
+					"settings":
+					{
+						"buffer_size": 502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -674,16 +749,16 @@
 		"selected_items":
 		[
 			[
+				"delete",
+				"spec/features/delete_user_spec.rb"
+			],
+			[
 				"at",
 				"spec/support/attributes.rb"
 			],
 			[
 				"nav",
 				"spec/features/navigate_furcons_spec.rb"
-			],
-			[
-				"delete",
-				"spec/features/delete_user_spec.rb"
 			],
 			[
 				"navigat",
@@ -883,7 +958,7 @@
 		[
 			[
 				"",
-				"/C/GitHub/events/events.sublime-project"
+				"/C/GitHub/Flicks/flicks.sublime-project"
 			]
 		],
 		"width": 380.0
