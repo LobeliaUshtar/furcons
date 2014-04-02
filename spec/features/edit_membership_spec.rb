@@ -13,7 +13,7 @@ describe "Editing a membership" do
 		
 		click_link 'Edit Me'	# unable to find link
 		
-		expect(current_path).to eq(edit_furcon_membership_path(furcon))
+		expect(current_path).to eq(edit_furcon_membership_path(furcon, membership))
 				
 		expect(find_field('Name').value).to eq(membership.name)
 
@@ -28,8 +28,9 @@ describe "Editing a membership" do
 
 	it "does not update the membership if it's invalid" do
 		furcon = Furcon.create!(furcon_attributes)
+		membership = Membership.create!(membership_attributes)
 		
-		visit edit_furcon_membership_url(furcon)	# no route matches
+		visit edit_furcon_membership_url(furcon, membership)
 		
 		fill_in 'Name', with: " "
 		

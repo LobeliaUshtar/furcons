@@ -284,18 +284,26 @@
 	"buffers":
 	[
 		{
-			"file": "spec/features/edit_membership_spec.rb",
-			"settings":
-			{
-				"buffer_size": 992,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "spec/features/delete_membership_spec.rb",
 			"settings":
 			{
 				"buffer_size": 502,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "spec/features/edit_membership_spec.rb",
+			"settings":
+			{
+				"buffer_size": 1054,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/memberships/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 795,
 				"line_ending": "Windows"
 			}
 		}
@@ -336,6 +344,9 @@
 	},
 	"file_history":
 	[
+		"/C/GitHub/furcons/app/controllers/application_controller.rb",
+		"/C/GitHub/furcons/app/views/users/show.html.erb",
+		"/C/GitHub/furcons/spec/features/edit_user_spec.rb",
 		"/C/GitHub/events/spec/helpers/users_helper_spec.rb",
 		"/C/GitHub/furcons/spec/features/navigate_furcons_spec.rb",
 		"/C/GitHub/furcons/spec/features/list_furcons_spec.rb",
@@ -343,7 +354,6 @@
 		"/C/GitHub/furcons/spec/features/create_furcon_spec.rb",
 		"/C/GitHub/furcons/app/controllers/users_controller.rb",
 		"/C/GitHub/furcons/spec/features/delete_user_spec.rb",
-		"/C/GitHub/furcons/spec/features/edit_user_spec.rb",
 		"/C/GitHub/furcons/spec/support/attributes.rb",
 		"/C/GitHub/furcons/spec/controllers/users_controller_spec.rb",
 		"/C/GitHub/furcons/app/models/user.rb",
@@ -388,7 +398,6 @@
 		"/C/GitHub/events/app/views/events/index.html.erb",
 		"/C/GitHub/furcons/app/models/membership.rb",
 		"/C/GitHub/furcons/app/views/layouts/application.html.erb",
-		"/C/GitHub/furcons/app/views/users/show.html.erb",
 		"/C/GitHub/events/app/helpers/application_helper.rb",
 		"/C/GitHub/events/app/helpers/events_helper.rb",
 		"/C/GitHub/events/app/views/layouts/application.html.erb",
@@ -406,7 +415,6 @@
 		"/C/GitHub/furcons/app/views/memberships/edit.html.erb",
 		"/C/rails_studio/furcons/config/routes.rb",
 		"/C/GitHub/furcons/app/assets/stylesheets/memberships.css.scss",
-		"/C/GitHub/furcons/app/controllers/application_controller.rb",
 		"/C/GitHub/furcons/furcons.sublime-project",
 		"/C/GitHub/furcons/app/assets/stylesheets/furcons.css.scss",
 		"/C/GitHub/furcons/db/migrate/20140317232514_add_admin_to_users.rb",
@@ -643,15 +651,15 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "spec/features/edit_membership_spec.rb",
+					"file": "spec/features/delete_membership_spec.rb",
 					"settings":
 					{
-						"buffer_size": 992,
+						"buffer_size": 502,
 						"regions":
 						{
 						},
@@ -675,23 +683,50 @@
 				},
 				{
 					"buffer": 1,
-					"file": "spec/features/delete_membership_spec.rb",
+					"file": "spec/features/edit_membership_spec.rb",
 					"settings":
 					{
-						"buffer_size": 502,
+						"buffer_size": 1054,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								321,
+								321
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/memberships/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								795,
+								795
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
