@@ -60,3 +60,5 @@ group :test do
   gem "capybara", "2.2.1"
   gem "nokogiri", "1.6.1"
 end
+
+gem 'rake', '~> 10.2.2'

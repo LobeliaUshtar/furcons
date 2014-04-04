@@ -8,6 +8,7 @@ describe "Editing a membership" do
 
 	it "updates the membership and shows the furcon's membership listing" do
 		furcon = Furcon.create!(furcon_attributes)
+		membership = furcon.memberships.create!(name: "Radical", prereg_fee: 30.00, reg_fee: 40.00, swag: "Attendance ~ A collectible BLFC poker chip!")
 		
 		visit furcon_memberships_url(furcon)
 		
