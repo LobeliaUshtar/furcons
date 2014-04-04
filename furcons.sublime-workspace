@@ -283,22 +283,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "spec/features/edit_membership_spec.rb",
-			"settings":
-			{
-				"buffer_size": 1201,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "spec/features/delete_membership_spec.rb",
-			"settings":
-			{
-				"buffer_size": 722,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/RSpec/RSpec.sublime-build",
 	"command_palette":
@@ -336,6 +320,8 @@
 	},
 	"file_history":
 	[
+		"/C/GitHub/furcons/spec/features/delete_membership_spec.rb",
+		"/C/GitHub/furcons/spec/features/edit_membership_spec.rb",
 		"/C/GitHub/furcons/db/seeds.rb",
 		"/C/GitHub/furcons/app/views/furcons/show.html.erb",
 		"/C/GitHub/furcons/spec/features/create_membership_spec.rb",
@@ -346,8 +332,6 @@
 		"/C/GitHub/furcons/Gemfile",
 		"/C/GitHub/furcons/Gemfile.lock",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/exercise-solutions/13-friendly-urls/flix/Gemfile",
-		"/C/GitHub/furcons/spec/features/edit_membership_spec.rb",
-		"/C/GitHub/furcons/spec/features/delete_membership_spec.rb",
 		"/C/GitHub/furcons/spec/features/delete_user_spec.rb",
 		"/C/GitHub/furcons/db/test.sqlite3",
 		"/C/GitHub/furcons/app/controllers/application_controller.rb",
@@ -643,65 +627,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "spec/features/edit_membership_spec.rb",
-					"settings":
-					{
-						"buffer_size": 1201,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								68,
-								68
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/RSpec/RSpec.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "spec/features/delete_membership_spec.rb",
-					"settings":
-					{
-						"buffer_size": 722,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								444,
-								299
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/RSpec/RSpec.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

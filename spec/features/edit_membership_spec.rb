@@ -8,11 +8,11 @@ describe "Editing a membership" do
 
 	it "updates the membership and shows the furcon's membership listing" do
 		furcon = Furcon.create!(furcon_attributes)
-		membership = furcon.memberships.create!(name: "Radical", prereg_fee: 30.00, reg_fee: 40.00, swag: "Attendance ~ A collectible BLFC poker chip!")
+		membership = furcon.memberships.create!(membership_attributes)
 		
 		visit furcon_memberships_url(furcon)
 		
-		click_link 'Edit Me'	# unable to find link
+		click_link 'Edit Me'
 		
 		expect(current_path).to eq(edit_furcon_membership_path(furcon, membership))
 				
