@@ -283,6 +283,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/views/users/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 611,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/users/_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 1041,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/RSpec/RSpec.sublime-build",
 	"command_palette":
@@ -627,8 +643,63 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/views/users/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								611,
+								611
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/users/_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 1041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1041,
+								1041
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
