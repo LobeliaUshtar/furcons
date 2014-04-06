@@ -71,4 +71,31 @@ describe UsersController do
 		
 	end
 	
+=begin
+	context "when signed in as an admin" do
+		before do
+			@admin_user = User.create(user_attributes(admin: true))
+			session[:user_id] = @admin_user.id
+		end
+
+		it "can edit another user" do
+			get :edit, id: @user
+			
+			expect(response).to redirect_to(new_session_url)
+		end
+		
+		it "can update another user" do
+			patch :update, id: @user
+			
+			expect(response).to redirect_to(new_session_url)
+		end
+		
+		it "can destroy another user" do
+			delete :destroy, id: @user
+			
+			expect(response).to redirect_to(new_session_url)
+		end
+	end
+=end
+
 end

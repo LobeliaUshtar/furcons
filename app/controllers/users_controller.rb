@@ -4,7 +4,11 @@ class UsersController < ApplicationController
 	before_action :set_user, only: [:show, :edit, :update, :destroy]
 
 	def index
-		@users = User.not_admins
+		if current_user_admin?
+			@users = User.by_name
+		else
+			@users = User.not_admins
+		end
 	end
 
 	def show
