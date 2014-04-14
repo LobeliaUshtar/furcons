@@ -9,6 +9,23 @@ class User < ActiveRecord::Base
 	validates :password, length: { minimum: 5, allow_blank: true }
 	validates :username, presence: true, format: /\A[A-Z0-9]+\z/i, uniqueness: { case_sensitive: false }
 
+=begin
+	ADMIN = ['yes', 'no']
+
+	validates :admin, inclusion: { 
+		in: ADMIN
+	}
+
+			<li>
+				<%= f.label :admin, "Are you an Admin?" %>
+				<% User::ADMIN.each do |x| %>
+					<span>
+						<%= f.radio_button :admin, x %> <%= x %>
+					</span>
+				<% end %>
+			</li>
+=end
+
 	scope :by_name, -> { order(:name) }
 	scope :not_admins, -> { by_name.where(admin: false) }
 	

@@ -81,6 +81,30 @@ User.create!([
 		password: "secret",
 		password_confirmation: "secret",
 		admin: true
+	},
+	{
+		name: "Ivan",
+		email: "ivan@example.com",
+		username: "ivan",
+		password: "secret",
+		password_confirmation: "secret",
+		admin: false
+	},
+	{
+		name: "Dora",
+		email: "dora@example.com",
+		username: "dora",
+		password: "secret",
+		password_confirmation: "secret",
+		admin: false
+	},
+	{
+		name: "Tau",
+		email: "tau@example.com",
+		username: "tau",
+		password: "secret",
+		password_confirmation: "secret",
+		admin: false
 	}
 ])
 
