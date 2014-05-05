@@ -18,5 +18,3 @@ pickle-email-*.html
 .project
 *.ini
 *.bat
-*.sublime-project
-*.sublime-workspace

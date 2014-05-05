@@ -326,6 +326,14 @@
 				"buffer_size": 1042,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 206,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "Packages/RSpec/RSpec.sublime-build",
@@ -673,7 +681,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -808,6 +816,32 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 285.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": ".gitignore",
+					"settings":
+					{
+						"buffer_size": 206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								165,
+								165
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1074,7 +1108,7 @@
 		[
 			[
 				"",
-				"/C/GitHub/flix/flix.sublime-project"
+				"/C/GitHub/crowdfund/crowdfund.sublime-project"
 			]
 		],
 		"width": 380.0
